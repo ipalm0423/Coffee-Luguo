@@ -487,6 +487,7 @@
 				AC1A9FF91BAD2E0A00221043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC1A9FFA1BAD2E0A00221043 /* Build configuration list for PBXNativeTarget "Coffee LuguoTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +496,7 @@
 				AC1A9FFC1BAD2E0A00221043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC1A9FFD1BAD2E0A00221043 /* Build configuration list for PBXNativeTarget "Coffee LuguoUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +505,7 @@
 				AC1A9FFF1BAD2E0A00221043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
