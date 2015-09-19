@@ -1,5 +1,6 @@
 PODS:
   - Bolts/Tasks (1.2.2)
+<<<<<<< HEAD
   - Parse (1.7.5.3):
     - Bolts/Tasks (>= 1.2.0)
   - ParseUI (1.1.4):
@@ -15,3 +16,19 @@ SPEC CHECKSUMS:
   ParseUI: d1228541b02a36a7354c8f47747f5f7a89cf1ff0
 
 COCOAPODS: 0.38.2
+=======
+  - Parse (1.8.5):
+    - Bolts/Tasks (>= 1.2.2)
+  - youtube-ios-player-helper (0.1.4)
+
+DEPENDENCIES:
+  - Parse
+  - youtube-ios-player-helper (~> 0.1.4)
+
+SPEC CHECKSUMS:
+  Bolts: 20a2bd788273360cb1e31530dc19b8544eef2544
+  Parse: 17ad8e0677ed682f7f00503860fcda0f4eb74168
+  youtube-ios-player-helper: 84b1485ebb4b7c6b619c6e05edcb55186723a7c6
+
+COCOAPODS: 0.37.2
+>>>>>>> ipalm0423/master
