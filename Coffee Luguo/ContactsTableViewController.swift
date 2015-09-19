@@ -58,28 +58,27 @@ class ContactsTableViewController: UITableViewController {
         case 0 :
             print("row1")
             let imageCell = tableView.dequeueReusableCellWithIdentifier("imageCell", forIndexPath: indexPath) as! imageTableViewCell
-            imageCell.imageView?.image = UIImage(named:"coffeeL")
-            return imageCell
-            
+            imageCell.imageView?.image = UIImage(named:"coffeeL.jpg")
+            return imageCell            
         case 1 :
             print("row 2")
-            let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! cellTableViewCell
+            let cell = tableView.dequeueReusableCellWithIdentifier("cell1", forIndexPath: indexPath) as! cellTableViewCell
             cell.firstLabel.text = titleName[0]
             return cell
             
         case 2 :
             print("row 3")
-            let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! cellTableViewCell
+            let cell = tableView.dequeueReusableCellWithIdentifier("cell2", forIndexPath: indexPath) as! cellTableViewCell
             cell.firstLabel.text = titleName[1]
             return cell
         case 3 :
             print("row 4")
-            let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! cellTableViewCell
+            let cell = tableView.dequeueReusableCellWithIdentifier("cell3", forIndexPath: indexPath) as! cellTableViewCell
             cell.firstLabel.text = titleName[2]
             return cell
         default :
             print("no row")
-            let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! cellTableViewCell
+            let cell = tableView.dequeueReusableCellWithIdentifier("cell1", forIndexPath: indexPath) as! cellTableViewCell
             cell.firstLabel.text = titleName[1]
             return cell
         }
