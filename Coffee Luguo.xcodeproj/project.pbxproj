@@ -15,6 +15,25 @@
 		AC1A9FDD1BAD2E0A00221043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1A9FDB1BAD2E0A00221043 /* LaunchScreen.storyboard */; };
 		AC1A9FE81BAD2E0A00221043 /* Coffee_LuguoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A9FE71BAD2E0A00221043 /* Coffee_LuguoTests.swift */; };
 		AC1A9FF31BAD2E0A00221043 /* Coffee_LuguoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A9FF21BAD2E0A00221043 /* Coffee_LuguoUITests.swift */; };
+		AC1AA0031BAD356900221043 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AA0001BAD356900221043 /* Parse.framework */; };
+		AC1AA0071BAD359A00221043 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AA0061BAD359A00221043 /* AudioToolbox.framework */; };
+		AC1AA0091BAD35A300221043 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AA0081BAD35A300221043 /* CFNetwork.framework */; };
+		AC1AA00C1BAD35B100221043 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AA00A1BAD35B100221043 /* CoreGraphics.framework */; };
+		AC1AA00D1BAD35B100221043 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AA00B1BAD35B100221043 /* CoreLocation.framework */; };
+		AC1AA00F1BAD35BE00221043 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AA00E1BAD35BE00221043 /* QuartzCore.framework */; };
+		AC1AA0111BAD35C900221043 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AA0101BAD35C900221043 /* Security.framework */; };
+		AC1AA0131BAD35DF00221043 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AA0121BAD35DF00221043 /* StoreKit.framework */; };
+		AC1AA0151BAD35EE00221043 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AA0141BAD35EE00221043 /* SystemConfiguration.framework */; };
+		AC1AA0171BAD35FC00221043 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AA0161BAD35FC00221043 /* libz.tbd */; };
+		AC1AA0191BAD362700221043 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1AA0181BAD362700221043 /* libsqlite3.tbd */; };
+		AC5DC1D51BAD517700D01AF6 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5DC1D41BAD517700D01AF6 /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AC5DC1D71BAD518A00D01AF6 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5DC1D61BAD518A00D01AF6 /* TestViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AC5DC21A1BAD6C1100D01AF6 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = AC5DC2141BAD6C1100D01AF6 /* YTPlayerView-iframe-player.html */; settings = {ASSET_TAGS = (); }; };
+		AC5DC21B1BAD6C1100D01AF6 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DC2171BAD6C1100D01AF6 /* YTPlayerView.m */; settings = {ASSET_TAGS = (); }; };
+		AC5DC21C1BAD6C1100D01AF6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AC5DC2181BAD6C1100D01AF6 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		AC5DC21D1BAD6C1100D01AF6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AC5DC2191BAD6C1100D01AF6 /* README.md */; settings = {ASSET_TAGS = (); }; };
+		AC5DC21F1BAD8E1C00D01AF6 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5DC21E1BAD8E1C00D01AF6 /* ResultViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C6120313A75FDDD73FAA3291 /* Pods_Coffee_Luguo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC9EC4A4AD8399FB6E15A09 /* Pods_Coffee_Luguo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C71356A316F5B8E3B9ED463 /* Pods-Coffee Luguo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee Luguo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee Luguo/Pods-Coffee Luguo.release.xcconfig"; sourceTree = "<group>"; };
+		9EC9EC4A4AD8399FB6E15A09 /* Pods_Coffee_Luguo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee_Luguo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1A9FCC1BAD2E0A00221043 /* Coffee Luguo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Luguo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1A9FCF1BAD2E0A00221043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC1A9FD11BAD2E0A00221043 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +70,27 @@
 		AC1A9FEE1BAD2E0A00221043 /* Coffee LuguoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee LuguoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1A9FF21BAD2E0A00221043 /* Coffee_LuguoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_LuguoUITests.swift; sourceTree = "<group>"; };
 		AC1A9FF41BAD2E0A00221043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1AA0001BAD356900221043 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		AC1AA0061BAD359A00221043 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AC1AA0081BAD35A300221043 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AC1AA00A1BAD35B100221043 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC1AA00B1BAD35B100221043 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AC1AA00E1BAD35BE00221043 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AC1AA0101BAD35C900221043 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AC1AA0121BAD35DF00221043 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AC1AA0141BAD35EE00221043 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AC1AA0161BAD35FC00221043 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AC1AA0181BAD362700221043 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AC5DC1D41BAD517700D01AF6 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		AC5DC1D61BAD518A00D01AF6 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		AC5DC1D81BAD585A00D01AF6 /* Header-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Header-Bridge.h"; sourceTree = "<group>"; };
+		AC5DC2141BAD6C1100D01AF6 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
+		AC5DC2161BAD6C1100D01AF6 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		AC5DC2171BAD6C1100D01AF6 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		AC5DC2181BAD6C1100D01AF6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AC5DC2191BAD6C1100D01AF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AC5DC21E1BAD8E1C00D01AF6 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E1DB7F10AEC66C170A6C8A20 /* Pods-Coffee Luguo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee Luguo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee Luguo/Pods-Coffee Luguo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1AA0191BAD362700221043 /* libsqlite3.tbd in Frameworks */,
+				AC1AA0171BAD35FC00221043 /* libz.tbd in Frameworks */,
+				AC1AA0151BAD35EE00221043 /* SystemConfiguration.framework in Frameworks */,
+				AC1AA0131BAD35DF00221043 /* StoreKit.framework in Frameworks */,
+				AC1AA0111BAD35C900221043 /* Security.framework in Frameworks */,
+				AC1AA00F1BAD35BE00221043 /* QuartzCore.framework in Frameworks */,
+				AC1AA00C1BAD35B100221043 /* CoreGraphics.framework in Frameworks */,
+				AC1AA00D1BAD35B100221043 /* CoreLocation.framework in Frameworks */,
+				AC1AA0091BAD35A300221043 /* CFNetwork.framework in Frameworks */,
+				AC1AA0071BAD359A00221043 /* AudioToolbox.framework in Frameworks */,
+				AC1AA0031BAD356900221043 /* Parse.framework in Frameworks */,
+				C6120313A75FDDD73FAA3291 /* Pods_Coffee_Luguo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +130,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A751900623C48095CFFE37B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1DB7F10AEC66C170A6C8A20 /* Pods-Coffee Luguo.debug.xcconfig */,
+				5C71356A316F5B8E3B9ED463 /* Pods-Coffee Luguo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1E18CFBE2FD2ABD146C93B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC5DC2121BAD6C1100D01AF6 /* youtube-ios-player-helper */,
+				9EC9EC4A4AD8399FB6E15A09 /* Pods_Coffee_Luguo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC1A9FC31BAD2E0A00221043 = {
 			isa = PBXGroup;
 			children = (
+				AC1AA0181BAD362700221043 /* libsqlite3.tbd */,
+				AC1AA0161BAD35FC00221043 /* libz.tbd */,
+				AC1AA0141BAD35EE00221043 /* SystemConfiguration.framework */,
+				AC1AA0121BAD35DF00221043 /* StoreKit.framework */,
+				AC1AA0101BAD35C900221043 /* Security.framework */,
+				AC1AA00E1BAD35BE00221043 /* QuartzCore.framework */,
+				AC1AA00A1BAD35B100221043 /* CoreGraphics.framework */,
+				AC1AA00B1BAD35B100221043 /* CoreLocation.framework */,
+				AC1AA0081BAD35A300221043 /* CFNetwork.framework */,
+				AC1AA0061BAD359A00221043 /* AudioToolbox.framework */,
 				AC1A9FCE1BAD2E0A00221043 /* Coffee Luguo */,
 				AC1A9FE61BAD2E0A00221043 /* Coffee LuguoTests */,
 				AC1A9FF11BAD2E0A00221043 /* Coffee LuguoUITests */,
 				AC1A9FCD1BAD2E0A00221043 /* Products */,
+				AC1AA0001BAD356900221043 /* Parse.framework */,
+				7A751900623C48095CFFE37B /* Pods */,
+				A1E18CFBE2FD2ABD146C93B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +187,10 @@
 				AC1A9FCF1BAD2E0A00221043 /* AppDelegate.swift */,
 				AC1A9FD11BAD2E0A00221043 /* ViewController.swift */,
 				AC1A9FD31BAD2E0A00221043 /* Main.storyboard */,
+				AC5DC1D41BAD517700D01AF6 /* IntroViewController.swift */,
+				AC5DC1D81BAD585A00D01AF6 /* Header-Bridge.h */,
+				AC5DC21E1BAD8E1C00D01AF6 /* ResultViewController.swift */,
+				AC5DC1D61BAD518A00D01AF6 /* TestViewController.swift */,
 				AC1A9FD91BAD2E0A00221043 /* Assets.xcassets */,
 				AC1A9FDB1BAD2E0A00221043 /* LaunchScreen.storyboard */,
 				AC1A9FDE1BAD2E0A00221043 /* Info.plist */,
@@ -128,6 +217,35 @@
 			path = "Coffee LuguoUITests";
 			sourceTree = "<group>";
 		};
+		AC5DC2121BAD6C1100D01AF6 /* youtube-ios-player-helper */ = {
+			isa = PBXGroup;
+			children = (
+				AC5DC2131BAD6C1100D01AF6 /* Assets */,
+				AC5DC2151BAD6C1100D01AF6 /* Classes */,
+				AC5DC2181BAD6C1100D01AF6 /* LICENSE */,
+				AC5DC2191BAD6C1100D01AF6 /* README.md */,
+			);
+			name = "youtube-ios-player-helper";
+			path = "Coffee Luguo/youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		AC5DC2131BAD6C1100D01AF6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AC5DC2141BAD6C1100D01AF6 /* YTPlayerView-iframe-player.html */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AC5DC2151BAD6C1100D01AF6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AC5DC2161BAD6C1100D01AF6 /* YTPlayerView.h */,
+				AC5DC2171BAD6C1100D01AF6 /* YTPlayerView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC1A9FF71BAD2E0A00221043 /* Build configuration list for PBXNativeTarget "Coffee Luguo" */;
 			buildPhases = (
+				429DEC22BE265525C6A05070 /* Check Pods Manifest.lock */,
 				AC1A9FC81BAD2E0A00221043 /* Sources */,
 				AC1A9FC91BAD2E0A00221043 /* Frameworks */,
 				AC1A9FCA1BAD2E0A00221043 /* Resources */,
+				6E311D0D9751A2869C933C49 /* Embed Pods Frameworks */,
+				4B5CEA49483AA4C2B0E5F937 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,6 +311,8 @@
 		AC1A9FC41BAD2E0A00221043 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "陳冠宇";
 				TargetAttributes = {
@@ -233,7 +356,9 @@
 			files = (
 				AC1A9FDD1BAD2E0A00221043 /* LaunchScreen.storyboard in Resources */,
 				AC1A9FDA1BAD2E0A00221043 /* Assets.xcassets in Resources */,
+				AC5DC21A1BAD6C1100D01AF6 /* YTPlayerView-iframe-player.html in Resources */,
 				AC1A9FD51BAD2E0A00221043 /* Main.storyboard in Resources */,
+				AC5DC21C1BAD6C1100D01AF6 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +378,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		429DEC22BE265525C6A05070 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B5CEA49483AA4C2B0E5F937 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coffee Luguo/Pods-Coffee Luguo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E311D0D9751A2869C933C49 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coffee Luguo/Pods-Coffee Luguo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC1A9FC81BAD2E0A00221043 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5DC1D71BAD518A00D01AF6 /* TestViewController.swift in Sources */,
 				AC1A9FD21BAD2E0A00221043 /* ViewController.swift in Sources */,
+				AC5DC21B1BAD6C1100D01AF6 /* YTPlayerView.m in Sources */,
+				AC5DC21F1BAD8E1C00D01AF6 /* ResultViewController.swift in Sources */,
+				AC5DC21D1BAD6C1100D01AF6 /* README.md in Sources */,
 				AC1A9FD81BAD2E0A00221043 /* Coffee_Luguo.xcdatamodeld in Sources */,
 				AC1A9FD01BAD2E0A00221043 /* AppDelegate.swift in Sources */,
+				AC5DC1D51BAD517700D01AF6 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,23 +578,35 @@
 		};
 		AC1A9FF81BAD2E0A00221043 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DB7F10AEC66C170A6C8A20 /* Pods-Coffee Luguo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Coffee Luguo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Morpheus.Coffee-Luguo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Coffee Luguo/Header-Bridge.h";
 			};
 			name = Debug;
 		};
 		AC1A9FF91BAD2E0A00221043 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C71356A316F5B8E3B9ED463 /* Pods-Coffee Luguo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Coffee Luguo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Morpheus.Coffee-Luguo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Coffee Luguo/Header-Bridge.h";
 			};
 			name = Release;
 		};
