@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F8409E71BADB3DF004D837B /* 111ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8409E61BADB3DF004D837B /* 111ViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		AC1A9FD01BAD2E0A00221043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A9FCF1BAD2E0A00221043 /* AppDelegate.swift */; };
 		AC1A9FD21BAD2E0A00221043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A9FD11BAD2E0A00221043 /* ViewController.swift */; };
 		AC1A9FD51BAD2E0A00221043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1A9FD31BAD2E0A00221043 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		5C71356A316F5B8E3B9ED463 /* Pods-Coffee Luguo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee Luguo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee Luguo/Pods-Coffee Luguo.release.xcconfig"; sourceTree = "<group>"; };
+		5F8409E61BADB3DF004D837B /* 111ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 111ViewController.swift; sourceTree = "<group>"; };
 		9EC9EC4A4AD8399FB6E15A09 /* Pods_Coffee_Luguo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee_Luguo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1A9FCC1BAD2E0A00221043 /* Coffee Luguo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Luguo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1A9FCF1BAD2E0A00221043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				AC1A9FCF1BAD2E0A00221043 /* AppDelegate.swift */,
 				AC1A9FD11BAD2E0A00221043 /* ViewController.swift */,
 				AC1A9FD31BAD2E0A00221043 /* Main.storyboard */,
+				5F8409E61BADB3DF004D837B /* 111ViewController.swift */,
 				AC5DC1D41BAD517700D01AF6 /* IntroViewController.swift */,
 				AC5DC1D81BAD585A00D01AF6 /* Header-Bridge.h */,
 				AC5DC21E1BAD8E1C00D01AF6 /* ResultViewController.swift */,
@@ -435,6 +438,7 @@
 				AC1A9FD21BAD2E0A00221043 /* ViewController.swift in Sources */,
 				AC5DC21B1BAD6C1100D01AF6 /* YTPlayerView.m in Sources */,
 				AC5DC21F1BAD8E1C00D01AF6 /* ResultViewController.swift in Sources */,
+				5F8409E71BADB3DF004D837B /* 111ViewController.swift in Sources */,
 				AC5DC21D1BAD6C1100D01AF6 /* README.md in Sources */,
 				AC1A9FD81BAD2E0A00221043 /* Coffee_Luguo.xcdatamodeld in Sources */,
 				AC1A9FD01BAD2E0A00221043 /* AppDelegate.swift in Sources */,
